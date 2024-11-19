@@ -1,0 +1,56 @@
+Frontend (React.js and Next.js):
+React.js Basics:
+Approach: Used state and props to manage dynamic elements like adding and displaying to-do items.
+Key Considerations: Ensuring state updates correctly with user interaction and managing list re-rendering efficiently.
+Challenges: Maintaining a clear separation of concerns between UI and state management.
+
+
+Next.js Routing:
+
+Approach: Utilized Next.js's built-in routing system to create multiple pages and enable smooth client-side navigation.
+Key Considerations: Leveraging Next.js’s file-based routing and optimizing page loading performance.
+Challenges: Handling dynamic routes and ensuring proper navigation without full page reloads.
+
+
+API Integration:
+
+Approach: Integrated a mock API using JSON Server and fetched data in Next.js to display it on the frontend.
+Key Considerations: Using async/await for data fetching and handling loading states.
+Challenges: Ensuring correct handling of asynchronous operations and rendering data efficiently.
+
+
+Backend (Node.js):
+Node.js Server:
+
+Approach: Set up an Express.js server with a simple API endpoint returning JSON data.
+Key Considerations: Defining API routes properly and structuring the server for future scalability.
+Challenges: Managing correct routing and understanding the architecture of a Node.js server.
+
+
+Middleware:
+
+Approach: Created a middleware to log request details, aiding in debugging and monitoring.
+Key Considerations: Ensuring middleware is non-intrusive and works efficiently across all routes.
+Challenges: Implementing middleware without affecting server performance.
+
+
+Database Interaction:
+
+Approach: Connected Node.js with PostgreSQL, designed a user table, and implemented basic CRUD operations.
+Key Considerations: Ensuring secure and efficient database access, and handling data validation.
+Challenges: Writing SQL queries effectively and managing database connections.
+
+
+Database (PostgreSQL):
+Database Schema:
+
+Approach: Designed a schema for a blogging platform, establishing relationships between users, posts, and comments.
+Key Considerations: Defining proper foreign keys and normalization for efficient data storage.
+Challenges: Balancing normalization and query performance.
+
+
+SQL Queries:
+
+Approach: Wrote queries to retrieve posts by users and count comments on posts, demonstrating database querying skills.
+Key Considerations: Using JOINs and aggregation functions to fetch and manipulate data efficiently.
+Challenges: Optimizing queries for performance as the dataset grows.
